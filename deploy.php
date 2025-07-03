@@ -5,7 +5,7 @@ $branch = 'main';
 $logFile = '/home/delzone/deploy.log';       
 
 // === Pull and Deploy ===
-$cmd = "cd $repoPath && git pull origin $branch && /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' ./ $repoPath 2>&1";
+$cmd = "cd $repoPath && git pull origin $branch && /bin/rsync -av  ./ $repoPath 2>&1";
 exec($cmd, $output, $return_var);
 
 // === Logging ===
