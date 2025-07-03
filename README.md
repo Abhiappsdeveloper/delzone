@@ -1,1 +1,1 @@
-# delzone is good things. Never happened easily.
+# delzone is good things. Never happened easily. they are not clear.
